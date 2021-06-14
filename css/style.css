@@ -3,3 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1%;
+  }
+
+  .c {
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
+  }
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.c_heart {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    top: 5%;
+    right: 0%;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.price {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+   left: 0px;
+}
+
+.c_patchs {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.c_sos {
+    height: 25px;
+    width: 100px;
+    top: 75%;
+    left: 16%;
+    background-color: #00875a;
+}
+
+.c_scont {
+    height: 25px;
+    width: 40px;
+    top: 75%;
+    left: 0%;
+    background-color: #eb0037;
+}
+
+.brand {
+    font-size: 14px;
+}
+
+.over{
+    display: none;
+
+}
+
+.c :hover .ori {
+    display: none;
+}
+
+.c :hover .over {
+    display: inline-block;
+}
+
